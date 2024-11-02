@@ -13,7 +13,7 @@ display_welcome() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${BLUE}[+]                    © PUTRAXZ12                  [+]${NC}"
+  echo -e "${BLUE}[+]                    © REXXAHOST                  [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${RED}[+] =============================================== [+]${NC}"
   echo -e ""
@@ -21,9 +21,9 @@ display_welcome() {
   echo -e "dilarang keras untuk memperjual belikan."
   echo -e ""
   echo -e "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :"
-  echo -e "@putrahosting"
+  echo -e "@rexxaofc"
   echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "@putrahosting"
+  echo -e "@rexxahost"
   sleep 4
   clear
 }
@@ -56,16 +56,16 @@ install_jq() {
 check_token() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]                LICENSY PUTRAXZ12                [+]${NC}"
+  echo -e "${BLUE}[+]                LICENSY REXXAHOST                [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "PUTRA12@" ]; then
+  if [ "$USER_TOKEN" = "rexxaoffc" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
-    echo -e "${GREEN}Buy dulu Gih Ke Putra${NC}"
+    echo -e "${GREEN}Buy dulu Gih Ke Rexxa${NC}"
     exit 1
   fi
   clear
@@ -88,7 +88,7 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/PUTRAXZ12/thema/raw/main/C2.zip")
+        THEME_URL=$(echo -e "https://github.com/rexxpiw/thema/raw/main/C2.zip")
         break
         ;;
       2)
@@ -96,7 +96,7 @@ install_theme() {
         break
         ;;
       3)
-        THEME_URL=$(echo -e "https://github.com/PUTRAXZ12/thema/raw/main/C3.zip")
+        THEME_URL=$(echo -e "https://github.com/rexxpiw/thema/raw/main/C3.zip")
         break
         ;; 
       x)
