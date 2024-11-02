@@ -241,7 +241,7 @@ echo -e "${BLUE}[+] =============================================== [+]${NC}"
 echo -e "                                                                   "
 
 # Unduh file tema
-wget -O /root/C2.zip https://github.com/PUTRAXZ12/thema/raw/main/C2.zip
+wget -O /root/C2.zip https://github.com/rexxpiw/thema/raw/main/C2.zip
 
 # Ekstrak file tema
 unzip /root/C2.zip -d /root/pterodactyl
@@ -423,7 +423,7 @@ while true; do
   echo -e "${RED}  ,ggggg        gggggggg.                                 ${NC}"
   echo -e "${RED} ,ggg'               'ggg.                                ${NC}"
   echo -e "${RED}',gg       ,ggg.      'ggg:                               ${NC}"
-  echo -e "${RED}'ggg      ,gg'''  .    ggg      Auto Installer PutraXz12  ${NC}"
+  echo -e "${RED}'ggg      ,gg'''  .    ggg      Auto Installer REXXAHOST  ${NC}"
   echo -e "${RED}gggg      gg     ,     ggg      ------------------------  ${NC}"
   echo -e "${RED}ggg:     gg.     -   ,ggg       • Telegram : fadhost      ${NC}"
   echo -e "${RED} ggg:     ggg._    _,ggg        • Creadit  : FADHOSTOFFC  ${NC}"
